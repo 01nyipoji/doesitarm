@@ -1,14 +1,19 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    font-weight: 200;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    position: static;
 }
 
 .text-sm{
@@ -18,6 +23,7 @@ nav{
 .text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+    size: 150%;
 }
 
 a{
@@ -51,4 +57,29 @@ a{
 
 #callToAction{
     text-align: center;
+    margin-top: 100px;
+
+}
+
+#callToActionButton{
+    box-shadow: 2px 2px 2px black;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#callToActionButton:hover{
+    background-color: blueviolet;
+}
+
+.h2{
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 100px;
 }

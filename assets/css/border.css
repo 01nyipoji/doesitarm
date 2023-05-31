@@ -2,6 +2,8 @@
     border: solid 1px white;
     border-radius: 5px;
     padding: 30px;
+    height: 96px;
+    width: auto;
     display: flex;
     justify-content: space-around;
 }
@@ -9,4 +11,8 @@
 .links{
     border-right: solid white;
     padding-right: 10px;
+}
+
+.underline{
+    padding-top: 30px;
 }
